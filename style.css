@@ -8,7 +8,8 @@ h1{
 .image-border{
     border-left: 3px solid;
     padding-left: 5px;
-    borderimage: linear-gradient(orange, cyan);
+    border-image: linear-gradient(orange, cyan);
+    
     border-image-slice: 1;
 }
 .orange-color{
@@ -26,7 +27,7 @@ h1{
 .flexible-container{
     display: flex;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 120px;
 }
 .first-div{
     width: 50%;
@@ -42,9 +43,11 @@ h1{
     text-align: center;
 }
 .mission-vission{
-    width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 30%;
+    border-radius: 10%;
+    background-color:wheat;
+    margin-left: 2px;
+    margin-right: 2%;
     box-shadow: 10px 10px 40px gray;
 }
 #stay-focused{
@@ -73,4 +76,56 @@ h1{
     width: 80%;
     padding-top: 20px;
     padding-left: 10px;
+}
+.fourth-section-div{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.fourth-section-div img{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+input[type = text], select{
+    width: 50%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 50%;
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px;
+}
+input[type=submit]:hover {
+    background-color: violet;
+}
+.div-form{
+    border-radius: 5px;
+    background-color: tomato;
+    padding: 20px;
+}
+.footer-section{
+    background-color: green;
+    text-align: center;
+    font: 700;
+}
+.footer-heading{
+    font: italic;
+}
+.copyright{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
 }
