@@ -1,3 +1,76 @@
 body{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+}
+h1{
+    font-size: 50px;
+}
+.image-border{
+    border-left: 3px solid;
+    padding-left: 5px;
+    borderimage: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+}
+.orange-color{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient( orange, tomato);
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.flexible-container{
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.first-div{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.first-div img{
+    width: 60%;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+#mission-heading{
+    text-align: center;
+}
+.mission-vission{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#stay-focused{
+    display: flex;
+}
+.div-2{
     
+    width: 25%;
+    padding-left: 10px;
+}
+.div-2 img{
+    width: 50%;
+    right: auto;
+
+}
+.third-section{
+    display: flex;
+    
+}
+.third-section-div{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.third-section-div img{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 10px;
 }
